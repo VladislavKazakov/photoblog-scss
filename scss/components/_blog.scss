@@ -1,0 +1,58 @@
+.main{
+    padding-top: 92px;
+    padding-bottom: 66px;
+}
+
+.main__title,
+.main__card-title{
+    color: $textColor;
+    margin-bottom: 40px;
+    margin-top: 32px;
+    font-size: 30px;
+}
+
+.main__card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__card-item{
+    width: 420px;
+    margin-bottom: 130px;
+}
+
+.main__card-img{
+    width: 420px;
+    height: 280px;
+    margin-bottom: 32px;
+}
+
+.main__card-name{
+    color: $nameColor;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.main__classparagraf{
+    color: $textColor;
+    font-size: 14px;
+}
+
+.main__wrap-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.main__button{
+    background: #fff;
+    color: $textColor;
+    border: solid $textColor 1px;
+    padding: 20px 48px;
+    font-size: 14px;
+    height: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
